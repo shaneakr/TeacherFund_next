@@ -8,18 +8,18 @@ import '../static/styles/main.scss'
 
 const Ourwork = () => (
   <div className='main-container'>
-    <Nav />
+    <Nav navColor='black' backgroundColor='back-white' />
     <Head title='Our Work' />
 
     <div className='body'>
       <SubsectionImportant
         titleText='How we work'
+        image='/static/images/dirty_desk.jpg'
         descriptionText="We believe public school teachers don't receive the recognition they deserve. We're working to change that."
       >
-        <h2 className='titleText'>
-          Our Progress
-        </h2>
-        <StatsTable />
+        <div className='ourwork--statstable'>
+          <StatsTable />
+        </div>
       </SubsectionImportant>
 
       <div className='mapgraphic--container'>

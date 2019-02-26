@@ -35,7 +35,7 @@ class Nav extends React.Component {
 
   render () {
     return (
-      <div className='nav'>
+      <div className={`${this.props.backgroundColor} nav`}>
         <div className='navBarSection'>
           {this.props.navColor === 'white' && <div className='navBarSection_logo'>
             <Link href='/'>
