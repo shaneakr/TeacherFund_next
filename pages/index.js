@@ -80,8 +80,8 @@ class IndexPage extends Component {
         <section className='index__nav'>
           <Nav />
         </section>
-        <section className='index__header h-section pv6 pv7-ns ph2 pr7-ns'>
-          <div className='fr flex flex-column mt6 mt0-ns tc'>
+        <section className='index__header h-section pv6 pv7-ns ph2 pr7-l'>
+          <div className='fr flex flex-column mt6 mt3-m mt0-l tc tl-ns'>
             <div className='tf-dark-gray ts-title tf-oswald fl'>
               Funding Teachers.<br />
               Empowering Students.
@@ -122,8 +122,8 @@ class IndexPage extends Component {
           <div className='bg-tf-gray o-10 h-section w-100 absolute' />
           <div className='w-100 flex pa4-l index__provide'>
             <div className='bg-transparent w6 mt7-l ml6-l flex flex-column pa4-l z-1 index__provide--content'>
-              <div className='pa2'>
-                <div className='tf-oswald o-100 ts-title pv2 tc tl-ns'>
+              <div className='pa2 m0-auto'>
+                <div className='tf-oswald o-100 ts-title pv2 tc tl-l'>
                   What We Provide
                 </div>
                 <div className='tf-lato-lite ts-subtext tc'>
@@ -193,8 +193,8 @@ class IndexPage extends Component {
           </div>
         </section>
         <section className='h-section bg-tf-teal pt5-l'>
-          <div className='flex flex-column pv3 pv0-l'>
-            <div className='ts-title tf-oswald white tc mb5-l'>
+          <div className='flex flex-column pv3 pv4-m pv0-l'>
+            <div className='ts-title tf-oswald white tc mb3-m mb5-l'>
               See How We're Doing
             </div>
             <div className='center pa2 pv0-ns flex flex-column'>
@@ -240,7 +240,7 @@ class IndexPage extends Component {
             <div className='ts-title tf-oswald center mb4-l'>
               Get Involved
             </div>
-            <div className='flex flex-row flex-wrap justify-center w-auto mt5-m center'>
+            <div className='flex flex-row flex-wrap justify-center w-auto mt3-m center'>
               <div className='pa2 pa4-ns w-50-m w-33-l w-80 bg-card h5-5-ns ma3'>
                 <div className='w-100 pa2'>
                   <div className='pa2 tc'>
@@ -254,7 +254,7 @@ class IndexPage extends Component {
                   </div>
                   <div className='db center w-auto pv4 pb0-ns ph4 tc pointer'>
                     <Link href='/donate'>
-                      <a className='white no-underline pa3 db br-pill tf-lato b v-mid bg-tf-yellow w-80 m-auto'>Donate</a>
+                      <a className='white dim no-underline pa3 db br-pill tf-lato b v-mid bg-tf-yellow w-80 m-auto'>Donate</a>
                     </Link>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ class IndexPage extends Component {
                     </div>
                   </div>
                   <div className='db center w-auto pv4 pb0-ns ph4 tc pointer'>
-                    <a className='white no-underline pa3 db br-pill tf-lato b v-mid bg-tf-pink w-80 m-auto'
+                    <a className='white dim no-underline pa3 db br-pill tf-lato b v-mid bg-tf-pink w-80 m-auto'
                       href='mailto:joelwass@theteacherfund.com?subject=Application'>
                        Apply Today
                     </a>
@@ -288,7 +288,7 @@ class IndexPage extends Component {
             <div className='ts-title tf-oswald pt5-l center'>
               Meet the Team
             </div>
-            <div className='flex flex-row flex-wrap justify-center w-auto mt3 center'>
+            <div className='flex flex-row flex-wrap justify-center w-auto mt3 center ph4-m'>
               <div className='bg-white z-1 ma4-l w-50-m w-25-l w-80'>
                 <div className='w-100 bg-transparent pa4-l'>
                   <div className='pa2-l tc'>
@@ -358,8 +358,8 @@ class IndexPage extends Component {
               <div className='m-auto pb3'>
                 <input placeholder='Email Address' className='pa2 tf-lato bn ma2' value={this.state.email} onChange={this.updateEmail} />
               </div>
-              <div className='white no-underline pa2 db br-pill tf-lato b v-mid bg-tf-yellow w-40 m-auto' onClick={this.subscribe}>
-                <label className=''>Submit</label>
+              <div className='white dim no-underline pa2 db br-pill tf-lato b v-mid bg-tf-yellow w-40 m-auto' onClick={this.subscribe}>
+                <label>Submit</label>
               </div>
             </div>
             <div className='pt4 center white m-auto tf-lato-lite'>
